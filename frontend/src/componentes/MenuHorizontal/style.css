@@ -1,0 +1,101 @@
+*{
+    background: #fff;
+  }
+
+  
+  
+  
+  .menu-horizontal{
+    margin-left: 15px;
+    margin-top: 30px;
+    /* margin-rirght: 80px; */
+  }
+  
+
+  
+  
+  
+  
+  .menu-horizontal .pesquisar input{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 22px;
+    color: #929292;
+  }
+  
+  .menu-horizontal .pesquisar input{
+    position: absolute;
+    width: 260px;
+    height: 38px;
+    left: 322px;
+    top: 29px;
+    background: #FFFFFF;
+    border-radius: 17px;
+    padding-left: 55px;
+    border:none;
+  }
+  
+  .menu-horizontal .pesquisar button{
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    left: 339px;
+    top: 36px;
+    border: none;
+    cursor: pointer;
+    background: none;
+  }
+  
+  .menu-horizontal .pesquisar #lupa{
+    position: absolute;
+    margin-left: -13px;
+    margin-top: -14px;
+    background: none;
+  }
+  
+  
+  
+  
+  
+  .menu-horizontal .botoes .icons{
+    position: absolute;
+    left: 1100px;
+    top: 22px;
+  }
+  
+  .menu-horizontal .botoes button{
+    border: none;
+    cursor: pointer;
+  }
+  
+  .menu-horizontal .icons #modoEscuro {
+  /*   width: 17.96px;
+    height: 17.96px; */
+    margin-bottom: -1px;
+  }
+  
+  .menu-horizontal .icons #pt-text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #000000; 
+    margin-left: 9px;
+  }
+  
+
+  
+  .menu-horizontal .icons #notific{
+    width: 24px;
+    height: 31px;
+    margin-bottom: -8px;
+  }
+  
+  .menu-horizontal .icons #perfil{
+    width: 32px;
+    height: 50px;
+    margin-bottom: -17px;
+  }

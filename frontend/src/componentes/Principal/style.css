@@ -1,0 +1,567 @@
+*{
+  font-family: Poppins;
+}
+
+#caixa-conteudo{
+  position: relative;
+  background: #ECF9F5;
+  margin-left: auto;
+  margin-right: 30px;
+  width: 1030px;
+  height: 615px;
+  padding: 16px 30px 30px 40px;
+  margin-top:-480px;
+  margin-bottom: 35px;
+  border-radius: 35px;
+}
+
+
+.esq .cartao #titulo-cartao{
+  position: absolute;
+  margin-top: 2%;
+  background: none;
+
+}
+
+.esq img{
+  position: absolute;
+  background: none;
+  margin-top: 5%;
+}
+
+
+
+.esq .payments-esq{
+  margin-top: 25%;
+  position: absolute;
+  background:none;
+}
+
+.esq .payments-esq button{
+  display: flex;
+  flex-direction: column;
+  background: none;
+  height: 38px;
+  width: 145px;
+  margin-bottom: 10px;
+  border-radius: 9px;
+  padding-left:45px;
+  padding-top: 10px;
+  cursor:pointer;
+  background: #DDEEE9;
+  border:none;
+}
+
+.esq .payments-esq button:hover{
+  transition: all .2s;
+  background: #b5ded2;
+}
+
+.esq .payments-dir button:hover{
+  transition: all .2s;
+  background: #b5ded2;
+}
+
+.esq .payments-esq button img{
+  display: flex;
+  margin-left: -30px;
+  margin-top: -1px;
+}
+
+.esq .payments-dir{
+  margin-top: 25%;
+  margin-left:15%;
+  position: absolute;
+  background:none;
+}
+
+.esq .payments-dir button{
+  display: flex;
+  flex-direction: column;
+  background: none;
+  height: 38px;
+  width: 145px;
+  margin-bottom: 10px;
+  border-radius: 9px;
+  padding-left:45px;
+  padding-top: 10px;
+  cursor: pointer;
+  background: #DDEEE9;
+  border:none;
+}
+
+
+.esq .payments-dir button img{
+  display: flex;
+  margin-left: -30px;
+  margin-top: -1px;
+}
+
+
+
+
+
+.esq .open-finance{
+  position: absolute;
+  margin-top: 45%;
+  width: 308px;
+  height: 120px;
+  background: #DDEEE9;
+  border-radius: 23px;
+}
+
+.esq .open-finance img{
+  margin-top: 0%;
+}
+
+.esq .open-finance h5{
+  padding-left: 35%;
+  background:none;
+}
+
+.esq .open-finance p{
+  padding-left: 35%;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  color: #7A7A7A;
+  margin-top: -22px;
+  background:none;
+}
+
+.esq .open-finance button{
+  position: absolute;
+  margin-top: -5px;
+  margin-left: 35%;
+  background: #4ED2AD;
+  border-radius: 9px;
+  border: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  width: 85px;
+  color: #FFFFFF;
+  cursor: pointer;
+  transition: all .5s;
+}
+
+.esq .open-finance button:hover{
+  transition: all .5s;
+  width: 95px;
+  background: #3db391;
+}
+
+
+
+.meio{
+  margin-left: 33.5%;
+}
+
+.meio h4{
+  position: absolute;
+  margin-top: 2%;
+  background: none;
+}
+
+
+
+
+.meio .pag-futuros .free{
+  position: absolute;
+  margin-top: 5%;
+  width: 141px;
+  height: 180px;
+  background: #DDEEE9;
+  border-radius: 20px;
+  transition: all .5s;
+}
+
+.meio .pag-futuros .free:hover{
+  background: #c2e0d6;
+  transition: all .5s;
+}
+
+.meio .pag-futuros .free img{
+  background: none;
+  padding-top: 10px;
+  margin-left: 14px;
+  width: 50px;
+}
+
+.meio .pag-futuros .salario{
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 14%;
+  width: 141px;
+  height: 180px;
+  background: #DDEEE9;
+  border-radius: 20px;
+  transition: all .5s;
+}
+
+.meio .pag-futuros .salario:hover{
+  background: #c2e0d6;
+  transition: all .5s;
+}
+
+.meio .pag-futuros .salario img{
+  background: none;
+  padding-top: 10px;
+  margin-left: 14px;
+  width: 50px;
+}
+
+
+.meio .pag-futuros h5{
+  background:none;
+  margin-top: 5px;
+  padding-left: 17px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+
+.meio .pag-futuros p{
+  margin-top: -30px;
+  padding-left: 17px;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 35px;
+  color: #515151;
+  background:none;
+  margin-bottom: 25px;
+}
+
+.meio .pag-futuros #din{
+  font-weight: 700;
+  font-size: 16px;
+  color:#000000;
+}
+
+
+
+
+
+
+
+
+.meio .outros-servicos h5{
+  padding-top: -20px;
+}
+
+
+.meio .outros-servicos .portabilidade{
+  position:absolute;
+  margin-top: 23%;
+  width: 298px;
+  height: 110px;
+  background: #DDEEE9;
+  border-radius: 20px; 
+}
+
+
+
+.meio .outros-servicos .investimento{
+  position:absolute;
+  margin-top: 34.5%;
+  width: 298px;
+  height: 110px;
+  background: #DDEEE9;
+  border-radius: 20px; 
+}
+
+
+.meio .outros-servicos .emprestimo{
+  position:absolute;
+  margin-top: 46%;
+  width: 298px;
+  height: 110px;
+  background: #DDEEE9;
+  border-radius: 20px; 
+}
+
+
+.meio .outros-servicos .portabilidade #resolucao{
+  width:58px;
+  margin-left:15px;
+  padding-left: 15px;
+  padding-top: 35px;
+  background:none;
+}
+
+.meio .outros-servicos .emprestimo #resolucao{
+  width:40px;
+  margin-left:15px;
+  padding-left: 15px;
+  padding-top: 35px;
+  background:none;
+}
+
+.meio .outros-servicos .investimento #resolucao{
+  width:40px;
+  margin-left:15px;
+  padding-left: 15px;
+  padding-top: 35px;
+  background:none;
+}
+
+.meio .outros-servicos h5{
+  background:none;
+  padding-left:35%;
+  margin-top: -25%;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.meio .outros-servicos .portabilidade h5{
+  margin-top: -27%;
+}
+
+.meio .outros-servicos .investimento h5{
+  margin-top: -21%;
+}
+
+.meio .outros-servicos .emprestimo h5{
+  margin-top: -19%;
+}
+
+.meio .outros-servicos p{
+  background:none;
+  padding-left: 35%;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 15px;
+  width: 55%;
+  margin-top: -20px;
+}
+
+.meio .outros-servicos button{
+  background:none;
+  display:flex;
+  margin-left:132%;
+  margin-top: -27%;
+  border:none;
+  cursor: pointer;
+}
+
+.meio .outros-servicos .emprestimo button{
+  padding-top: 8px;
+}
+
+.meio .outros-servicos #setinha{
+  background:none;
+  width: 12px;
+}
+
+.meio .outros-servicos :hover{
+  transition: all .2s;
+  background: #b5ded2;
+}
+
+
+
+
+
+
+
+
+
+
+
+.dir{
+  margin-left: 66%;
+}
+
+.dir h4{
+  position: absolute;
+  margin-top: 2%;
+  background: none; 
+}
+
+.dir .detalhes{
+  position: absolute;
+  margin-top: 5%;
+  width: 325px;
+  height: 561px;
+  background: #DDEEE9;
+  border-radius: 20px;
+}
+
+.dir .detalhes .saldo-conta{
+  margin-top: 32px;
+  padding-left: 20px;
+  background:none;
+}
+
+.dir .detalhes .saldo-conta h3{
+font-weight: 500;
+font-size: 20px;
+background:none;
+}
+
+.dir .detalhes .saldo-conta p{
+  font-weight: 700;
+  font-size: 22px;
+  background:none;
+
+}
+
+.dir .detalhes .saldo-conta #btCartao{
+  width: 162px;
+  height: 34px;
+  display:flex;
+  align-items: center;
+  background: linear-gradient(90deg, #3ED5AA 0%, #2FB791 100%);
+  border-radius: 10.7037px;
+  border:none;
+  font-weight: 500;
+  font-size: 13px;
+  color: #FFFFFF;
+  cursor:pointer;
+}
+
+.dir .detalhes .saldo-conta #btCartao:hover{
+  background: linear-gradient(180deg, #30b590 0%, #229b79 100%);
+}
+  
+.dir .detalhes .saldo-conta #imgCartao{
+  background: none;
+  padding-left: 12px;
+  padding-right: 8px;
+}
+
+
+.dir .detalhes .saldo-conta #btOcultar{
+  display: flex;
+  margin-top:-140px;
+  margin-left: 170px;
+  border:none;
+  cursor:pointer;
+  background:none;
+}
+
+.dir .detalhes .saldo-conta #btOcultar img{
+  background:none;
+}
+
+
+
+.dir .detalhes .cartao-credito{
+  margin-top: 46%;
+  padding-left: 20px;
+  background:none;
+}
+
+.dir .detalhes .cartao-credito h3{
+  font-weight: 500;
+  font-size: 20px;
+  background:none;
+
+}
+
+.dir .detalhes .cartao-credito h6{
+  font-weight: 500;
+  font-size: 16px;
+  color: #515151;
+  margin-top: -2px;
+  background:none;
+}
+
+.dir .detalhes .cartao-credito #valor{
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: -30px;
+  background:none;
+}
+
+.dir .detalhes .cartao-credito #disponivel{
+  font-weight: 500;
+  font-size: 14px;
+  color: #515151;
+  margin-top: -18px;
+  background:none;
+}
+
+.dir .detalhes .cartao-credito button{
+  box-sizing: border-box;
+  width: 156.15px;
+  height: 34px;
+  border-radius: 10.7037px;
+  border-color: #3ED5AA;
+  cursor: pointer;
+  background:none;
+}
+
+
+
+
+
+.dir .detalhes .buttons-detalhes{
+  margin-top: 14%;
+  padding-left: 20px; 
+  display: flex;
+  gap: 16px;
+  flex-direction: row;
+  background:none;
+}
+
+.dir .detalhes .buttons-detalhes button{
+  width: 58px;
+  height: 58px;
+  background: linear-gradient(90deg, #3ED5AA 0%, #2FB791 100%);
+  border-radius: 20px;
+  border:none;
+  padding-top: 5px;
+  cursor: pointer;
+}
+
+.dir .detalhes .buttons-detalhes button:hover{
+  background: linear-gradient(180deg, #30b590 0%, #229b79 100%);
+}
+
+.dir .detalhes .buttons-detalhes img{
+  background:none;
+}
+
+.dir .detalhes .buttons-detalhes p{
+  margin-top: 8px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  position: absolute;
+  background:none;
+}
+
+.dir .detalhes .buttons-detalhes .caixinha p{
+  margin-left: 3px;
+}
+
+.dir .detalhes .buttons-detalhes .cartoes p{
+  margin-left: 10px;
+
+}
+
+.dir .detalhes .buttons-detalhes .fatura p{
+  margin-left: 12px;
+}
+
+.dir .detalhes .buttons-detalhes .suporte p{
+  margin-left: 8px;
+}
+
+.dir .detalhes .buttons-detalhes .caixinha{
+  background:none;
+}
+
+.dir .detalhes .buttons-detalhes .cartoes{
+  background:none;
+}
+
+.dir .detalhes .buttons-detalhes .fatura{
+  background:none;
+}
+
+.dir .detalhes .buttons-detalhes .suporte{
+  background:none;
+}

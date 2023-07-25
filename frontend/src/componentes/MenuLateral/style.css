@@ -1,0 +1,62 @@
+*{
+    background: #fff;
+  }
+  
+  /*MenuSuperior*/
+  .menu-lateral{
+    margin-top:130px;
+    margin-left:15px;
+  }
+  
+  .menu-lateral button{
+    border: none;
+    width: 200px;
+    cursor: pointer;
+    display: flex;
+    height: 3.5vw;
+    align-items: center;
+  }
+
+  .menu-lateral button:hover a{
+    color: #00c48c;
+    transition: all 0.2s;
+  }
+  
+  
+  .menu-lateral #link{
+    text-decoration: none;
+  }
+
+  
+  .menu-lateral .inf{
+    margin-top:100px;
+  }
+  
+  .menu-lateral img{
+    padding-right: 10px;
+  }
+  
+  .menu-lateral #sair{
+    margin-left: -5px;
+    padding-right: 14px;
+  }
+  
+  .menu-lateral #tgeral{
+    padding-top: 6px;
+  }
+  
+  
+  
+  /*MenuInferior*/
+  
+  
+  
+  
+  /*Ajustes Gerais*/
+  
+  .menu-lateral a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 27px;
+    color: #000000;
+  } 
