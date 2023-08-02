@@ -71,32 +71,32 @@ const api = {
             })
     },
 
-    createIndividuals : (token) => {
+    // createIndividuals : (token) => {
 
       // let corpo = JSON.stringify({
       //   documento: documento,
       //   nome: nome
       // })
 
-      const requisicao = {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'Application/json',
-          'Authorization': (token)
-        },
-        // body: corpo
-      }
-      fetch(baseUrl + '/v2/individuals', requisicao)
-        .then((resposta) => {
-          if (resposta.ok) {
-            return resposta.json;
-          }
-        })
-        .catch((erro) => {
-          console.error(erro);
-          alert(erro)
-        })
-    }
+    //   const requisicao = {
+    //     method: 'POST',
+    //     headers: {
+    //       'Content-Type': 'Application/json',
+    //       'Authorization': (token)
+    //     },
+    //     // body: corpo
+    //   }
+    //   fetch(baseUrl + '/v2/individuals', requisicao)
+    //     .then((resposta) => {
+    //       if (resposta.ok) {
+    //         return resposta.json;
+    //       }
+    //     })
+    //     .catch((erro) => {
+    //       console.error(erro);
+    //       alert(erro)
+    //     })
+    // }
 }
 
 export default api

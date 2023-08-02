@@ -19,9 +19,10 @@ function Cadastro() {
     }, [])
 
   function enviar(){
+    console.log(token)
     let corpo = JSON.stringify({
-      documento: documento,
-      nome: nome,
+      document: documento,
+      name: nome,
 
     })
     const requisicao = {
@@ -33,14 +34,14 @@ function Cadastro() {
       body: corpo
     }
     fetch('http://localhost:8080/v2/individuals', requisicao)
-      .then((resposta) => {
+      .then(resposta => {
         if (resposta.ok) {
-          return resposta.json;
+            return resposta.json()
         }
-        throw resposta;
-      }).catch((erro) => {
-        console.error(erro);
-        alert(erro)
+      })
+      .catch(erro => {
+          console.error(erro)
+          throw erro
       })
   }
 
@@ -50,6 +51,8 @@ return (
       <div className='cad-sub'>
           <h2>Complete os campos abaixo para criar uma conta + cartão de crédito</h2>
         </div>
+
+
         <form>
         <div className='info-cad'>
           <input type='number' name='documento' placeholder='Documento' value={documento} onChange={e => setDocumento(e.target.value)} />
@@ -58,6 +61,8 @@ return (
           <input type='text' name='nome' placeholder='Nome Completo' value={nome} onChange={e => setNome(e.target.value)}/>
         </div>
         </form>
+
+
         <div className='enviar'>
           {/* <button id='btEnviar' onClick={() => enviar()}>Enviar</button> */}
           <button id='submit' onClick={() => enviar()}>Enviar</button>

@@ -72,7 +72,8 @@ func postRegdocsHandler(w http.ResponseWriter, req *http.Request) {
 
 func postCreateIndividualsHandler(w http.ResponseWriter, req *http.Request) {
 
-	dadosIndividuals, err := createindividuals.CreateIndividuals()
+	dadosIndividuals, err := createindividuals.CreateIndividuals(req)
+
 	if err != nil {
 		panic(err)
 	}
